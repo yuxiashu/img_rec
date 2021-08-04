@@ -1,0 +1,11 @@
+# img_path: "img_rec/imgs/id_card.jpeg"
+img_path: "img_rec/imgs/控件1.png"
+components_path: "img_rec/components.csv"
+threshold: 0.5
+row_num: 50
+json_dir: "img_rec/json/"
+colors: ["red", "blue", "green", "yellow", "purple"]
+patterns: "单行文本|多行文本|计数器|单选框组|多选框组|时间选择器|日期选择器|评分|颜色选择器|下拉选择框|开关|滑块|文字|HTML|自定义区域|自定义组件|文件|图片|编辑器|级联选择器|子表单"
+label2name: {"ColorSelector": "颜色选择器", "DateSelector": "日期选择器", "Counter": "计数器", "Image": "图片",
+             "MultiLineText": "多行文本", "SingleLineText": "单行文本", "MultiSelector": "多选框组", "SingleSelector": "单选框组",
+             "Score": "评分", "SelectionBox": "下拉选择框", "Slider": "滑块", "Switch": "开关", "Text": "文本", "TimeSelector": "时间选择器"}

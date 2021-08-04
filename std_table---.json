@@ -1,0 +1,340 @@
+{
+    "list": [
+      {
+        "type": "report",
+        "icon": "icon-datalist",
+        "options": {
+          "customClass": "",
+          "hidden": false,
+          "borderWidth": 1,
+          "borderColor": "#999",
+          "width": 100,
+          "widthUnit": "%",
+          "remoteFunc": "func_1627442701383",
+          "remoteOption": "option_1627442701383"
+        },
+        "rows": [
+          {
+            "columns": [
+              {
+                "type": "td",
+                "options": {
+                  "customClass": "",
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "align": "left",
+                  "valign": "top",
+                  "width": "16",
+                  "widthUnit": "",
+                  "height": ""
+                },
+                "list": [
+                  {
+                    "type": "textarea",
+                    "icon": "icon-multtext",
+                    "options": {
+                      "remote": false,
+                      "remoteType": "option",
+                      "props": {
+                        "value": "value",
+                        "label": "label"
+                      },
+                      "width": 100,
+                      "widthUnit": "%",
+                      "defaultValue": "",
+                      "required": false,
+                      "requiredMessage": "",
+                      "disabled": false,
+                      "pattern": "",
+                      "patternMessage": "",
+                      "placeholder": "",
+                      "customClass": "",
+                      "labelWidth": 100,
+                      "isLabelWidth": true,
+                      "hidden": false,
+                      "dataBind": true,
+                      "remoteFunc": "func_1627442835770",
+                      "remoteOption": "option_1627442835770"
+                    },
+                    "name": "多行文本",
+                    "key": "1627442835770",
+                    "model": "textarea_1627442835770",
+                    "rules": []
+                  }
+                ],
+                "key": "9lyyn0dc"
+              },
+              {
+                "type": "td",
+                "list": [
+                  {
+                    "type": "input",
+                    "icon": "icon-singletext",
+                    "options": {
+                      "autoGetDay": false,
+                      "startDateModel": "",
+                      "startDate": "",
+                      "endDateModel": "",
+                      "endDate": "",
+                      "dateRangeModel": "",
+                      "isDate": false,
+                      "isDateRange": false,
+                      "remote": false,
+                      "remoteType": "option",
+                      "remoteFunc": "func_1627442837980",
+                      "props": {
+                        "value": "value",
+                        "label": "label"
+                      },
+                      "countDay": 0,
+                      "width": 100,
+                      "widthUnit": "%",
+                      "defaultValue": "",
+                      "required": false,
+                      "requiredMessage": "",
+                      "dataType": "",
+                      "dataTypeCheck": false,
+                      "dataTypeMessage": "",
+                      "pattern": "",
+                      "patternCheck": false,
+                      "patternMessage": "",
+                      "placeholder": "",
+                      "customClass": "",
+                      "disabled": false,
+                      "labelWidth": 100,
+                      "isLabelWidth": true,
+                      "hidden": false,
+                      "dataBind": true,
+                      "showPassword": false,
+                      "remoteOption": "option_1627442837980"
+                    },
+                    "name": "单行文本",
+                    "key": "1627442837980",
+                    "model": "input_1627442837980",
+                    "rules": []
+                  }
+                ],
+                "options": {
+                  "customClass": "",
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "align": "left",
+                  "valign": "top",
+                  "width": 16,
+                  "height": ""
+                },
+                "key": "sgfcpu4q",
+                "rules": []
+              },
+              {
+                "type": "td",
+                "list": [
+                  {
+                    "type": "rate",
+                    "icon": "icon-stars-line",
+                    "options": {
+                      "defaultValue": 0,
+                      "max": 5,
+                      "disabled": false,
+                      "allowHalf": false,
+                      "required": false,
+                      "requiredMessage": "",
+                      "customClass": "",
+                      "labelWidth": 100,
+                      "isLabelWidth": true,
+                      "hidden": false,
+                      "dataBind": true,
+                      "showScore": false,
+                      "remoteFunc": "func_1627454950946",
+                      "remoteOption": "option_1627454950946"
+                    },
+                    "name": "评分",
+                    "key": "1627454950946",
+                    "model": "rate_1627454950946",
+                    "rules": []
+                  }
+                ],
+                "options": {
+                  "customClass": "",
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "align": "left",
+                  "valign": "top",
+                  "width": 16,
+                  "height": ""
+                },
+                "key": "oo98mun4",
+                "rules": []
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "type": "td",
+                "list": [
+                  {
+                    "type": "date",
+                    "icon": "icon-date",
+                    "options": {
+                      "startDate": "",
+                      "endDate": "",
+                      "startDay": false,
+                      "endDay": false,
+                      "defaultValue": "",
+                      "readonly": false,
+                      "disabled": false,
+                      "editable": true,
+                      "clearable": true,
+                      "placeholder": "",
+                      "startPlaceholder": "",
+                      "endPlaceholder": "",
+                      "type": "date",
+                      "format": "yyyy-MM-DD",
+                      "timestamp": false,
+                      "required": false,
+                      "requiredMessage": "",
+                      "width": 16,
+                      "widthUnit": "em",
+                      "customClass": "",
+                      "labelWidth": 100,
+                      "isLabelWidth": true,
+                      "hidden": false,
+                      "dataBind": true,
+                      "remoteFunc": "func_1627454942294",
+                      "remoteOption": "option_1627454942294"
+                    },
+                    "name": "日期选择器",
+                    "key": "1627454942294",
+                    "model": "date_1627454942294",
+                    "rules": []
+                  }
+                ],
+                "options": {
+                  "customClass": "",
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "align": "left",
+                  "valign": "top",
+                  "width": 16,
+                  "height": ""
+                },
+                "key": "24et3di9",
+                "rules": []
+              },
+              {
+                "type": "td",
+                "list": [
+                  {
+                    "type": "time",
+                    "icon": "icon-time-line",
+                    "options": {
+                      "defaultValue": "",
+                      "readonly": false,
+                      "disabled": false,
+                      "editable": true,
+                      "clearable": true,
+                      "placeholder": "HH:mm:ss",
+                      "startPlaceholder": "HH:mm:ss",
+                      "endPlaceholder": "HH:mm:ss",
+                      "isRange": false,
+                      "arrowControl": true,
+                      "format": "HH:mm:ss",
+                      "required": false,
+                      "requiredMessage": "",
+                      "width": 16,
+                      "widthUnit": "em",
+                      "customClass": "",
+                      "labelWidth": 100,
+                      "isLabelWidth": true,
+                      "hidden": false,
+                      "dataBind": true,
+                      "remoteFunc": "func_1627442840319",
+                      "remoteOption": "option_1627442840319"
+                    },
+                    "name": "时间选择器",
+                    "key": "1627442840319",
+                    "model": "time_1627442840319",
+                    "rules": []
+                  }
+                ],
+                "options": {
+                  "customClass": "",
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "align": "left",
+                  "valign": "top",
+                  "width": "",
+                  "height": ""
+                },
+                "key": "y80kodzf"
+              },
+              {
+                "type": "td",
+                "list": [
+                  {
+                    "type": "switch",
+                    "icon": "icon-switch",
+                    "options": {
+                      "defaultValue": false,
+                      "required": false,
+                      "requiredMessage": "",
+                      "disabled": false,
+                      "customClass": "",
+                      "labelWidth": 100,
+                      "isLabelWidth": true,
+                      "hidden": false,
+                      "dataBind": true,
+                      "remoteFunc": "func_1627454958557",
+                      "remoteOption": "option_1627454958557"
+                    },
+                    "name": "开关",
+                    "key": "1627454958557",
+                    "model": "switch_1627454958557",
+                    "rules": []
+                  }
+                ],
+                "options": {
+                  "customClass": "",
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "align": "left",
+                  "valign": "top",
+                  "width": "",
+                  "height": ""
+                },
+                "key": "bn3e7hv1"
+              }
+            ]
+          }
+        ],
+        "name": "表格布局",
+        "key": "1627442701383",
+        "model": "report_1627442701383",
+        "rules": []
+      }
+    ],
+    "config": {
+      "labelWidth": 100,
+      "labelPosition": "left",
+      "size": "small",
+      "customClass": "",
+      "ui": "antd",
+      "layout": "horizontal",
+      "labelCol": 3,
+      "width": 100,
+      "widthUnit": "%",
+      "hideLabel": false,
+      "hideErrorMessage": false,
+      "global": {
+        "list": [],
+        "config": {
+          "customClass": "",
+          "width": "",
+          "height": "",
+          "color": ""
+        }
+      },
+      "styleSheets": ""
+    }
+  }

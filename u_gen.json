@@ -1,0 +1,113 @@
+{
+    "list": [
+      {
+        "type": "grid",
+        "icon": "icon-grid-",
+        "columns": [
+          {
+            "type": "col",
+            "options": {
+              "span": 24
+            },
+            "list": [
+              {
+                "type": "input",
+                "icon": "icon-input",
+                "options": {
+                  "width": "100%",
+                  "defaultValue": "",
+                  "required": false,
+                  "dataType": "string",
+                  "pattern": "",
+                  "placeholder": "",
+                  "disabled": false,
+                  "remoteFunc": "func_1627467562202",
+                  "remoteOption": "option_1627467562202"
+                },
+                "name": "单行文本",
+                "key": "1627467562202",
+                "model": "input_1627467562202",
+                "rules": [
+                  {
+                    "type": "string",
+                    "message": "单行文本格式不正确"
+                  }
+                ]
+              }
+            ],
+            "key": "1627467562249"
+          },
+          {
+            "type": "col",
+            "options": {
+              "span": 24
+            },
+            "list": [
+              {
+                "type": "number",
+                "icon": "icon-number",
+                "options": {
+                  "width": "",
+                  "required": false,
+                  "defaultValue": 0,
+                  "min": 0,
+                  "max": 0,
+                  "step": 1,
+                  "disabled": false,
+                  "controlsPosition": "",
+                  "remoteFunc": "func_1627467562217",
+                  "remoteOption": "option_1627467562217"
+                },
+                "name": "计数器",
+                "key": "1627467562217",
+                "model": "number_1627467562217",
+                "rules": []
+              }
+            ],
+            "key": "1627467562264"
+          }
+        ],
+        "options": {
+          "gutter": 0,
+          "justify": "start",
+          "align": "top",
+          "remoteFunc": "func_1627467562249",
+          "remoteOption": "option_1627467562249"
+        },
+        "name": "栅格布局",
+        "key": "1627467562249",
+        "model": "grid_1627467562249",
+        "rules": []
+      },
+      {
+        "type": "textarea",
+        "icon": "icon-diy-com-textarea",
+        "options": {
+          "width": "100%",
+          "defaultValue": "",
+          "required": false,
+          "disabled": false,
+          "pattern": "",
+          "placeholder": "",
+          "remoteFunc": "func_1627467562233",
+          "remoteOption": "option_1627467562233"
+        },
+        "name": "多行文本",
+        "key": "1627467562233",
+        "model": "textarea_1627467562233",
+        "rules": []
+      }
+    ],
+    "config": {
+      "labelWidth": 100,
+      "labelPosition": "right",
+      "size": "small",
+      "customClass": "",
+      "ui": "element",
+      "layout": "horizontal",
+      "labelCol": 3,
+      "width": "100%",
+      "hideLabel": false,
+      "hideErrorMessage": false
+    }
+  }
